@@ -5,6 +5,7 @@ import AboutPage from './pages/AboutPage'
 import ContactsPage from './pages/ContactsPage'
 import ProductsPage from './pages/ProductsPage'
 import Navigation from './components/Navigation'
+import ProductPage from './pages/ProductPage'
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contacts" element={<ContactsPage />} />
           <Route path="/:category" element={<ProductsPage />} />
+          <Route path="/product/:id" element={<ProductPage />} /> {/* Новый маршрут */}
         </Routes>
       </main>
 
