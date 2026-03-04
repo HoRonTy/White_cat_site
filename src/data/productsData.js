@@ -2,6 +2,25 @@
 const productsData = {
   brelki: [
     { 
+      id: 'brelok-stranger-things',
+      title: 'Брелок Stranger Things', 
+      price: 90, 
+      category: 'Брелки', 
+      categoryLink: 'brelki',
+      mainImage: '/images/brelki/Stranger-Things-main.jpg', // путь к главному фото
+      images: [ // дополнительные фото для галереи
+        '/images/brelki/Stranger-Things-main.jpg',
+        '/images/brelki/Stranger-Things-1.jpg'
+      ],
+      description: 'Милый вязаный котик станет отличным подарком или украшением для ваших ключей. Ручная работа, высококачественная пряжа.',
+      characteristics: {
+        material: 'Хлопок 100%',
+        size: '10 см',
+        color: 'Рыжий',
+        weight: '30 г'
+      }
+    },
+    { 
       id: 'brelok-kotik',
       title: 'Брелок "Котик"', 
       price: 500, 
