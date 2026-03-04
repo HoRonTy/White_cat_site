@@ -21,26 +21,6 @@ const productsData = {
       }
     },
     { 
-      id: 'brelok-kotik',
-      title: 'Брелок "Котик"', 
-      price: 500, 
-      category: 'Брелки', 
-      categoryLink: 'brelki',
-      mainImage: '/images/brelki/kotik-main.jpg', // путь к главному фото
-      images: [ // дополнительные фото для галереи
-        '/images/brelki/kotik-1.jpg',
-        '/images/brelki/kotik-2.jpg',
-        '/images/brelki/kotik-3.jpg'
-      ],
-      description: 'Милый вязаный котик станет отличным подарком или украшением для ваших ключей. Ручная работа, высококачественная пряжа.',
-      characteristics: {
-        material: 'Хлопок 100%',
-        size: '10 см',
-        color: 'Рыжий',
-        weight: '30 г'
-      }
-    },
-    { 
       id: 'brelok-sovenok',
       title: 'Брелок "Совенок"', 
       price: 550, 
