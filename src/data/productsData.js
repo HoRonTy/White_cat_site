@@ -230,22 +230,22 @@ const productsData = {
       ],
       description: 'Вместительная сумка для покупок в морском стиле. Очень прочная и удобная.',
       characteristics: {
-        material: 'Хлопок',
+        material: 'Синтетический шнур',
         size: '40x35 см',
         color: 'Сине-белый',
-        capacity: 'до 10 кг'
+        capacity: 'до 5 кг'
       }
     },
     { 
-      id: 'klatch-vecherniy',
-      title: 'Клатч "Вечерний"', 
-      price: 2200, 
+      id: 'sumka-2',
+      title: 'название пока не придумано...', 
+      price: 3099, 
       category: 'Сумки',
       categoryLink: 'sumki',
-      mainImage: '/images/sumki/vecherniy-main.jpg',
+      mainImage: '/images/sumki/sumka2-main.jpg',
       images: [
-        '/images/sumki/vecherniy-1.jpg',
-        '/images/sumki/vecherniy-2.jpg'
+        '/images/sumki/sumka2-1.jpg',
+        '/images/sumki/sumka2-2.jpg'
       ],
       description: 'Элегантный клатч для особых случаев. Украшен нежным кружевом.',
       characteristics: {
